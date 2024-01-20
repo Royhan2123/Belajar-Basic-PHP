@@ -56,4 +56,35 @@ foreach ($names as $name) {
 // baru kita gunakan echo untuk menampilkan data nya yang sudah di insialisasi.
 // fungsi . untuk menambahkan data,jadi kita menambahkan data dari var $name " " biar ada spasi.
 
+/**
+ * Array dan Map bisa dijadikan sama,dikarenakan di php itu tidadk ada bedanya.
+ * beda dengan bahasa pemgoraman lain seperti dart,yang membedakan tipe data Map yang berisikan
+ * value dan key nya.
+ * contoh Map yang di gunakan dalam array PHP.
+ */
 
+    $mahasiswa = [
+      "id" => 010216,
+        "name" => "Royhan",
+        "Fakultas" => "Universitas Budi Darma",
+    ];
+
+    var_dump($mahasiswa);
+    // kalau kita ingin memanggil key nya,tinggal kita samakan saja key dari map nya
+var_dump($mahasiswa["name"]); // <- otomatis akan terpanggil 010216;
+
+/**
+ * ARRAY DI DALAM ARRAY
+ */
+
+$Royhan = [
+    "id" => 010216,
+    "name" => "Royhan",
+    "Fakultas" => "Universitas Budi Darma",
+    "addres" => [ // <- ini salah satu contoh penggunaan array di dalam array
+        "city" => "Jakarta",
+        "country" => "Indonesia",
+    ]
+];
+
+var_dump($Royhan["addres"]);
