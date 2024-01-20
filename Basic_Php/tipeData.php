@@ -49,5 +49,3 @@
      // batas dari integer di atas 7 maka hasilnya ialah overflow,bisa di lihat 
      // ketika dari visual studio code gais biruu maka dia otomatis sudah overflow / melebihi batas 
      var_dump(9223372036854775807);
-    
-?>

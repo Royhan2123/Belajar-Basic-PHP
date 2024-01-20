@@ -28,4 +28,3 @@
 
     echo NAME;
     echo UNIVERSITAS;
-?>

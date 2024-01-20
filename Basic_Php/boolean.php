@@ -4,4 +4,3 @@
 
     echo "Salah ";
     var_dump(false);
-?>
