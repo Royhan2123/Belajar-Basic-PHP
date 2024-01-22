@@ -53,3 +53,19 @@ if ($nilai_absen >= 90 or $nilai_kehadiran >= 80){
 }else {
     echo "Anda Gagal";
 }
+
+echo "\n";
+var_dump(!false); // <- otomatis nilainya akan menjadi true karena menggunakan ! untuk membalik data;
+var_dump(!true); // <- otomatis akan menjadi false;
+
+// <- sedangkan nilai xor digunakan untuk mendapatkan nilai true,tetapi nilai true yang di mulai dari ganjil
+// seperti contoh berikut :
+var_dump(true xor false);
+// otomatis akan true,dikarenakan true nya di letak di awal,atau di bilangan 1 (ganjil), dan seterusnya
+// 1,3,5,7,9 ... dll.
+var_dump(true xor true);
+// sedangkan kita letak di bilangan genap (2,4,6,8,10 ...dll) maka output yang di hasilkan akan false;
+
+// sebagai contoh lain :
+var_dump(false xor false xor true);
+// maka hasilnya true;
