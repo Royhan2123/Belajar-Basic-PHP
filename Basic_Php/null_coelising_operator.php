@@ -13,5 +13,3 @@ $action = $data["Action"] ?? "noting"; // <- ?? digunakan untuk mendapatkan nila
 // jadi otomatis hasil di atas ialah noting,karena array action di $data tidak ada.
 
 echo $action;
-
-
