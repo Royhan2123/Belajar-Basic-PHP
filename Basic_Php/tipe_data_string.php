@@ -4,6 +4,8 @@ $lastName = "Lubis";
 
 echo "Royhan" ." " . $lastName . PHP_EOL; // <- fungsi dot atau (.) digunakan untuk menambahkan value,sama seperti
 // "Royhan $lastName",tidak bisa menggunakan +.karena plus hanya di gunakan untuk operator aritmatika.
+echo "Royhan {$lastName}s" . "\n";
+
 
 /**
  * KONVERSI TIPE DATA,
